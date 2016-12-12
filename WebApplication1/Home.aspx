@@ -53,10 +53,9 @@
                     chosenLocal = locations[i];
                     changeWeather();
                     ++i;
-                    if (i > locations.length) {
+                    if (i > locations.length ) {
                         i = 0;
                     }
-
                 }, 6000);
             }
 
