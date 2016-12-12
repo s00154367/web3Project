@@ -4,14 +4,20 @@
     <script src="Scripts/JavaScript.js"></script>
     <link href="Style/StyleSheet1.css" rel="stylesheet" />
     <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1">
-        </asp:DataList>
+    </asp:DataList>
     <div>
         <h2 id="beachName"></h2>
     </div>
+    <div class="row">
 
-    <div id="map" style="width: 300px; height: 300px; background-color: aquamarine;">
+        <div id="details" class="col-md-3">
+            <h1 class="jumbotron">Strandhill</h1>
+            <h3>County Sligo</h3>
+            
+        </div>
+        <div id="details1" class="col-md-3"></div>
+        <div id="map" class="col-md-3" style="width: 300px; height: 300px;"></div>
         
     </div>
-    
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
 </asp:Content>
