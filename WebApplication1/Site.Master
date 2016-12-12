@@ -52,8 +52,7 @@
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
-                <asp:ScriptReference Name="JavaScript.js" Path="~/Scripts/JavaScript.js" />
-                <asp:ScriptReference Name=""
+                
                 <%--Site Scripts--%>
 
             </Scripts>
