@@ -15,6 +15,23 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="Style/StyleSheet1.css" rel="stylesheet" />
+    <script src="Scripts/JavaScript.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Simple Weather Library -->
+    <script src="Scripts/jquery.simpleWeather.min.js"></script>
+
+    <!-- Google Maps API -->
+    <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx4IANGM5viwbda9r_tSp2GQxnF_gis64&callback=initMap"></script>
+
 </head>
 <body>
     <form runat="server">
@@ -35,9 +52,14 @@
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
+                <asp:ScriptReference Name="JavaScript.js" Path="~/Scripts/JavaScript.js" />
+                <asp:ScriptReference Name=""
                 <%--Site Scripts--%>
+
             </Scripts>
         </asp:ScriptManager>
+
+
 
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
